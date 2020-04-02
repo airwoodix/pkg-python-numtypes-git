@@ -1,7 +1,7 @@
 # Package maintainer: airwoodix <airwoodix at posteo dot me>
 
 pkgname=python-numtypes-git
-pkgver=r33.ga164cfd
+pkgver=r34.g818133e
 pkgrel=1
 pkgdesc="Custom (experimental) data types for numpy"
 arch=('i686' 'x86_64')
@@ -9,7 +9,7 @@ url="https://github.com/WarrenWeckesser/numtypes"
 license=('BSD')
 depends=('python-numpy')
 makedepends=('git')
-source=("${pkgname%-git}::git+${url}.git")
+source=("${pkgname%-git}::git+https://github.com/airwoodix/numtypes.git#branch=fix-link-npymath")
 md5sums=('SKIP')
 sha256sums=('SKIP')
 
