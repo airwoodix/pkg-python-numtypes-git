@@ -1,0 +1,16 @@
+pkgbase = python-numtypes-git
+	pkgdesc = Custom (experimental) data types for numpy
+	pkgver = r33.ga164cfd
+	pkgrel = 1
+	url = https://github.com/WarrenWeckesser/numtypes
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	depends = python-numpy
+	source = python-numtypes::git+https://github.com/WarrenWeckesser/numtypes.git
+	md5sums = SKIP
+	sha256sums = SKIP
+
+pkgname = python-numtypes-git
+
